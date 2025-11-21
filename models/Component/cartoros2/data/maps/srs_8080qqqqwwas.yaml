@@ -1,0 +1,6 @@
+image: /home/parallels/cartoros2/data/maps/srs_8080qqqqwwas.pgm
+resolution: 0.050000
+origin: [-2.050000, -3.837944, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

@@ -1,0 +1,102 @@
+# =====================================
+# OS SYSTEM
+# =====================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# =====================================
+# PYTHON
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# venv
+venv/
+.env/
+.env*/  
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# =====================================
+# TRAINING / MACHINE LEARNING
+# =====================================
+# Your model files SHOULD be kept!
+# So DO NOT ignore: models/ checkpoints/
+!models/
+!checkpoints/
+
+# But ignore temporary training dumps
+*_temp/
+*.tmp
+*.log
+
+# PyTorch / ML Cache
+*.pt.lock
+tensorboard/
+
+# =====================================
+# ROS 2 (colcon / ament)
+# =====================================
+build/
+install/
+log/
+colcon.meta
+
+# ROS2 workspace
+**/build/
+**/install/
+**/log/
+
+# =====================================
+# C++ / CMake / Cartographer
+# =====================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+*.class
+
+# cartographer build output
+cartographer_files/
+**/CMakeFiles/
+**/*.cmake
+**/*.o
+
+# =====================================
+# EDITORS / IDES
+# =====================================
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================================
+# OTHER
+# =====================================
+*.bak
+*.swp
+*.swo
